@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#search {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#search-btn {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.track {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.track img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.track-info {
+    flex-grow: 1;
+    padding: 0 20px;
+    text-align: left;
+}
+
+.track-info h4 {
+    margin: 0 0 5px;
+}
+
+.track-info p {
+    margin: 0;
+}
+
+.play-btn {
+    cursor: pointer;
+}
